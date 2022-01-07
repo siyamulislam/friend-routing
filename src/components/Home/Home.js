@@ -11,7 +11,7 @@ const Home = () => {
     }, []); 
     return (
         <div>
-            <h2> Friends List</h2>
+            <h2> Friends List: {friends.length}</h2>
            {friends.map(friend=> <Friend  key={friend.id} friend={friend}></Friend>)}
         </div>
     );
