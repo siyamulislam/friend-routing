@@ -24,11 +24,9 @@ const FriendsDetails = () => {
             <h4>Email: {email}</h4>
             <h4>Phone: {phone}</h4>
             <h4>WebSite{website} </h4>
-            
             <h4>Address: {address.street }</h4>
             <h4>City: { address.city}</h4>
             <h4>Geo: {geo.lat} {geo.lng}</h4>
-
         </div>
     );
 };
