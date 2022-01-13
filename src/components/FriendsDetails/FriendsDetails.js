@@ -14,8 +14,8 @@ const FriendsDetails = () => {
             .then(res => res.json())
             .then(data => {
                 setFriend(data) 
-                setAddress(data.address) 
-                setGeo(data.address.geo) 
+                setAddress(data.address);
+                setGeo(data.address.geo);
             })
     }, []);
     return (
